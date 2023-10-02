@@ -1,5 +1,2 @@
-# zivgates
-My Website
-
-
-Visit it at https://zivgates.netlify.app (gonna buy a url soon)
+# zivgates.github.io
+My Websute
