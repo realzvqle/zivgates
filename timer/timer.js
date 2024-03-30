@@ -37,7 +37,6 @@ async function start(){
             clearLock.disabled = false;
             limitContent.disabled = false;
             return;
-
         } 
         time++;
         timerContent.textContent = time.toString();

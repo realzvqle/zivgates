@@ -23,10 +23,10 @@ body{
     height: 100vh;
 }
 .centered-element{
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 
@@ -41,8 +41,8 @@ a:hover{
 
 input{
     color: aqua;
-    border-radius: 12px;
-    border-color: rgb(74, 74, 74);
+    border-radius: 3px;
+    border-color: rgb(0, 0, 0);
     border-style:solid;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -94,8 +94,22 @@ footer{
     color: white;
     font-size: x-small;
 }
+header{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
 
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  .textbox {
+    width: 1000px;
+    height: 500px; 
+    line-height: 1.5; /* Adjust this value to increase or decrease the space between lines */
+    padding: 10px 5px; /* Added padding to give some space around the input */
+    box-sizing: border-box;
+    margin-top: 50px; /* Adjust this value as needed to get the desired position */
+}

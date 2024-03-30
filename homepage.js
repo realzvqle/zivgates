@@ -11,8 +11,8 @@ function about() {
 
 function aboutMe() {
     document.getElementById("text1").textContent = "Hello, I'm zvqle (not revealing my real name 😉).";
-    document.getElementById("text2").textContent = "I'm Mainly a C/C++ Programmer, But I also enjoy making Frontend For Websites.";
-    document.getElementById("text3").textContent = "I also enjoy talking politics, and random geography stuff.";
+    document.getElementById("text2").textContent = "I'm Mainly a C/C++ and Go Programmer, But I also enjoy making Frontend For Websites.";
+    document.getElementById("text3").textContent = "I also enjoy talking geopolitics, maps, and making flags";
     document.getElementById("text4").textContent = "Visit My Twitter, Github, And Youtube To see What I Make.";
     document.getElementById("text5").textContent = "🇸🇴/🇺🇸";
     
