@@ -18,6 +18,15 @@ function aboutMe() {
     
 }
 
+function myProjects() {
+    document.getElementById("text1").innerHTML = "Layl-Shell<br><br>A Command-Line for Windows<br><br><a href=\"layl/index.html\">Link</a>";
+    document.getElementById("text2").innerHTML = "Trojen.Win32.Vuvuria<br><br>A Malware written for educational purposes<br><br><a href=\"https://github.com/realzvqle/codename-quantalysm\">Link</a>";
+    document.getElementById("text3").innerHTML = "Skid-Engine<br><br>A Malware Maker for all the skids<br><br><a href=\"https://github.com/zivgates/Skid-Engine\">Link</a>";
+    document.getElementById("text4").innerHTML = "";
+    document.getElementById("text5").innerHTML = "";
+    
+}
+
 function clearContent() {
     document.getElementById("text1").textContent = "";
     document.getElementById("text2").textContent = "";
