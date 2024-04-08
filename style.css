@@ -32,14 +32,14 @@ body{
 
 
 a{
-    color: rgb(66, 63, 0);
+    color: rgb(238, 191, 255);
     text-decoration: none;
     font-weight: bold;
 
 }
 a:hover{
     font-weight: lighter;
-    color: rgb(121, 79, 0);
+    color: rgb(30, 0, 121);
 }
 
 input{
