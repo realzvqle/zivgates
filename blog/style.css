@@ -19,10 +19,36 @@ hr {
     background-color: black;
 }
 
+.blog {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: left;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    padding: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+    /* Adjust font size for small screens */
+    body {
+        font-size: 14px;
+    }
+    
+    /* Adjust padding for small screens */
+    .blog {
+        padding: 10px;
+    }
+}
+
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     height: 100vh;
 }
 .centered-element{
