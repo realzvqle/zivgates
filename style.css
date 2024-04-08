@@ -5,7 +5,7 @@ html, body {
 body{
     animation: fadeIn 4s;
     text-align: center;
-    background-image: linear-gradient(rgb(229, 255, 0), rgb(0, 238, 206));
+    background-image: linear-gradient(rgb(146, 155, 216), rgb(72, 94, 192));
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -32,11 +32,14 @@ body{
 
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(66, 63, 0);
     text-decoration: none;
+    font-weight: bold;
+
 }
 a:hover{
-    color: rgb(92, 60, 0);
+    font-weight: lighter;
+    color: rgb(121, 79, 0);
 }
 
 input{
